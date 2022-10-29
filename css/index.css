@@ -7,42 +7,38 @@
 }
 .container-all {
   margin: 0 auto;
-
+  max-width: 100%;
 }
-.first{
-      background-color: #F5F8FD; 
-      padding: 20px 30px;
+.first {
+  background-color: #f5f8fd;
+  padding: 20px 30px;
 }
-img{
-    max-width: 70%;
-    height: auto;
+img {
+  max-width: 70%;
+  height: auto;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
- 
 }
 nav img {
   max-width: 50%;
 }
 h2 {
   font-size: 18px;
-  color: #124CA4;
+  color: #124ca4;
 }
-h1{
-      font-size: 40.5px;
+h1 {
+  font-size: 40.5px;
   margin-bottom: 10px;
-  color: #372F2F;
-;
+  color: #372f2f;
 }
 p {
   margin: 25px 0;
   letter-spacing: 0.5px;
   font-size: 17px;
-  color: #372F2F;
-;
+  color: #372f2f;
 }
 .hero-text h1 {
   margin-bottom: 15px;
@@ -60,30 +56,25 @@ input {
   gap: 15px;
 }
 .black {
-background: #124CA4;
-text-transform: uppercase;
-border: 2px solid #124CA4
-;
+  background: #124ca4;
+  text-transform: uppercase;
+  border: 2px solid #124ca4;
 
   color: white;
 }
 .hero {
-  margin:  20px 40px;
+  margin: 20px 40px;
 }
-.one{
-
-    background-color: white;
-        padding:  20px 40px;
+.one {
+  background-color: white;
+  padding: 20px 40px;
 }
-
-
 
 .logo img {
   max-width: 20%;
   border-radius: 50%;
   padding: 8px;
-background: #124CA4;
-
+  background: #124ca4;
 }
 
 .one-sec {
@@ -91,73 +82,68 @@ background: #124CA4;
   flex-direction: column;
   gap: 10px;
 }
-.one-sec div{
-    flex-basis: 35%;
+.one-sec div {
+  flex-basis: 35%;
 }
-
 
 .header h2 {
   margin-bottom: 5px;
   font-size: 23px;
-color: #124CA4;
+  color: #124ca4;
 
-font-weight: bolder;
+  font-weight: bolder;
 }
-.two{
-    /* margin: 20px 0; */
-  background-color: #F5F8FD;
-      padding:  20px 40px;
+.two {
+  /* margin: 20px 0; */
+  background-color: #f5f8fd;
+  padding: 20px 40px;
 }
-.three{
-    padding:  20px 40px;
-    background-color: white;
+.three {
+  padding: 20px 40px;
+  background-color: white;
 }
-.four{
-    padding:  20px 40px;
-      background-color: #F5F8FD;
+.four {
+  padding: 20px 40px;
+  background-color: #f5f8fd;
 }
-
 
 button {
   padding: 10px;
   border-radius: 13px;
-background: #124CA4;
-text-transform: uppercase;
-color: black;
+  background: #124ca4;
+  text-transform: uppercase;
+  color: black;
   border: 2px solid black;
   margin-bottom: 20px;
   border: none;
 }
-button:hover{
-    background-color: black;
-    color: white;
+button:hover {
+  background-color: black;
+  color: white;
 }
-.five{
- 
-    background-color: white;
-    padding: 100px 0;
-        margin:  20px 40px;
+.five {
+  background-color: white;
+  padding: 100px 0;
+  margin: 20px 40px;
 }
-.new{
-   max-width: 800px;
-    margin: auto;
-
+.new {
+  max-width: 800px;
+  margin: auto;
 }
-footer{
-    background-color:#F5F8FD ;
-        padding:  20px 40px;
-        display: flex;
-        flex-direction: column;
-
+footer {
+  background-color: #f5f8fd;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
 }
-.icon{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
-.icon img{
-    max-width: 100%;
+.icon img {
+  max-width: 100%;
 }
 @media screen and (min-width: 680px) {
   .hero,
@@ -167,10 +153,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
   }
-  .two, .four{
-     flex-direction: row-reverse;
+  .two,
+  .four {
+    flex-direction: row-reverse;
   }
   .one-sec {
     display: flex;
@@ -179,7 +165,7 @@ footer{
   .hero-text {
     flex-basis: 50%;
   }
-  .two-text {
+  .two-t ext {
     flex-basis: 60%;
   }
   .three-text {
@@ -208,12 +194,12 @@ width: 700px;
     align-items: center;
     flex-direction: row;
   }
-  .one-text{
- text-align: left;
-  width: 50%;
+  .one-text {
+    text-align: left;
+    width: 50%;
+  }
 }
-}
- .head{
+.head {
   color: #333;
   font-family: tahoma;
   font-size: 3rem;
@@ -226,16 +212,15 @@ width: 700px;
   width: 550px;
 }
 
-.hero h1{
+.hero h1 {
   font-size: 40px;
   margin-left: 40px;
   text-transform: uppercase;
-    font-family: tahoma;
-
+  font-family: tahoma;
 }
 
 .message {
-background: #124CA4;
+  background: #124ca4;
 
   color: #333;
   display: block;
@@ -248,7 +233,9 @@ background: #124CA4;
   animation: openclose 5s ease-in-out infinite;
 }
 
-.word1, .word2, .word3 {
+.word1,
+.word2,
+.word3 {
   font-family: tahoma;
 }
 
@@ -309,7 +296,7 @@ background: #124CA4;
     top: -1rem;
     width: 0;
     text-indent: 5px;
-  } 
+  }
   100% {
     top: 0;
     width: 0;
