@@ -5,9 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+    font-family: inter;
+    src: url('../Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
 .container-all {
   margin: 0 auto;
   max-width: 100%;
+  font-family: inter;
 }
 .first {
   background-color: #f5f8fd;
@@ -24,7 +29,7 @@ nav {
     margin: 20px 40px;
 }
 nav img {
-  max-width: 50%;
+  width: 50%;
 }
 h2 {
   font-size: 18px;
@@ -44,6 +49,7 @@ p {
   letter-spacing: 0.5px;
   font-size: 17px;
   color: #372f2f;
+  line-height: 27px;
 }
 .hero-text h1 {
   margin-bottom: 15px;
