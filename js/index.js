@@ -16,3 +16,12 @@ typewriter
   .typeString("in - app Contents to users!<strong>")
   .pauseFor(1000)
   .start();
+
+
+  AOS.init({
+
+    offset :200,
+    duration:600,
+    easing:'ease-in-sine',
+    delay:100,
+  });

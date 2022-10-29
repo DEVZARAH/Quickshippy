@@ -29,10 +29,10 @@ nav {
     margin: 20px 40px;
 }
 nav img {
-  width: 100%;
+  width: 200px;
 }
 h2 {
-  font-size: 18px;
+  font-size: 25px;
   color: #124ca4;
 }
 h1 {
@@ -180,7 +180,7 @@ footer {
   .hero-text {
     flex-basis: 50%;
   }
-  .two-t ext {
+  .two-text {
     flex-basis: 50%;
   }
   .three-text {
