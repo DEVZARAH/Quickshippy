@@ -14,13 +14,14 @@
   padding: 20px 30px;
 }
 img {
-  max-width: 70%;
+  max-width: 90%;
   height: auto;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+    margin: 20px 40px;
 }
 nav img {
   max-width: 50%;
@@ -33,6 +34,10 @@ h1 {
   font-size: 40.5px;
   margin-bottom: 10px;
   color: #372f2f;
+}
+.hero h1{
+    /* text-align: center; */
+    margin: 0 auto;
 }
 p {
   margin: 25px 0;
@@ -138,8 +143,9 @@ footer {
 }
 .icon {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-between;
+  align-items: center; */
   gap: 20px;
 }
 .icon img {
@@ -166,13 +172,13 @@ footer {
     flex-basis: 50%;
   }
   .two-t ext {
-    flex-basis: 60%;
+    flex-basis: 50%;
   }
   .three-text {
-    flex-basis: 60%;
+    flex-basis: 50%;
   }
   .four-text {
-    flex-basis: 60%;
+    flex-basis: 50%;
   }
   /* .five {
     margin:auto;
@@ -198,108 +204,19 @@ width: 700px;
     text-align: left;
     width: 50%;
   }
+  .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
-.head {
-  color: #333;
-  font-family: tahoma;
-  font-size: 3rem;
-  font-weight: 100;
-  line-height: 1.5;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
-  width: 550px;
 }
+
 
 .hero h1 {
   font-size: 40px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   text-transform: uppercase;
   font-family: tahoma;
-}
-
-.message {
-  background: #124ca4;
-
-  color: #333;
-  display: block;
-  font-weight: 900;
-  overflow: hidden;
-  position: absolute;
-  padding-left: 0.5rem;
-  top: 0.2rem;
-  left: 80px;
-  animation: openclose 5s ease-in-out infinite;
-}
-
-.word1,
-.word2,
-.word3 {
-  font-family: tahoma;
-}
-
-@keyframes openclose {
-  0% {
-    top: 0.2rem;
-    width: 0;
-  }
-  5% {
-    width: 0;
-  }
-  15% {
-    width: 230px;
-  }
-  30% {
-    top: 0.2rem;
-    width: 230px;
-  }
-  33% {
-    top: 0.2rem;
-    width: 0;
-  }
-  35% {
-    top: 0.2rem;
-    width: 0;
-  }
-  /* 38% {
-    top: -4.5rem;
-    
-  }
-  48% {
-    top: -4.5rem;
-    width: 190px;
-  } */
-  62% {
-    top: -4.5rem;
-    width: 190px;
-  }
-  /* 66% {
-    top: -4.5rem;
-    width: 0;
-    text-indent: 0;
-  }
-  71% {
-    top: -9rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  /* 86% {
-    top: -9rem;
-    width: 285px;
-  } */
-  95% {
-    top: -9rem;
-    width: 285px;
-  }
-  98% {
-    top: -1rem;
-    width: 0;
-    text-indent: 5px;
-  }
-  100% {
-    top: 0;
-    width: 0;
-    text-indent: 0;
-  }
 }
