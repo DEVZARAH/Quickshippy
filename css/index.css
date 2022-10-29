@@ -1,0 +1,318 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-all {
+  margin: 0 auto;
+
+}
+.first{
+      background-color: #F5F8FD; 
+      padding: 20px 30px;
+}
+img{
+    max-width: 70%;
+    height: auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+ 
+}
+nav img {
+  max-width: 50%;
+}
+h2 {
+  font-size: 18px;
+  color: #124CA4;
+}
+h1{
+      font-size: 40.5px;
+  margin-bottom: 10px;
+  color: #372F2F;
+;
+}
+p {
+  margin: 25px 0;
+  letter-spacing: 0.5px;
+  font-size: 17px;
+  color: #372F2F;
+;
+}
+.hero-text h1 {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+input {
+  max-width: 100%;
+  padding: 15px;
+  border: 2px solid black;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.black {
+background: #124CA4;
+text-transform: uppercase;
+border: 2px solid #124CA4
+;
+
+  color: white;
+}
+.hero {
+  margin:  20px 40px;
+}
+.one{
+
+    background-color: white;
+        padding:  20px 40px;
+}
+
+
+
+.logo img {
+  max-width: 20%;
+  border-radius: 50%;
+  padding: 8px;
+background: #124CA4;
+
+}
+
+.one-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.one-sec div{
+    flex-basis: 35%;
+}
+
+
+.header h2 {
+  margin-bottom: 5px;
+  font-size: 23px;
+color: #124CA4;
+
+font-weight: bolder;
+}
+.two{
+    /* margin: 20px 0; */
+  background-color: #F5F8FD;
+      padding:  20px 40px;
+}
+.three{
+    padding:  20px 40px;
+    background-color: white;
+}
+.four{
+    padding:  20px 40px;
+      background-color: #F5F8FD;
+}
+
+
+button {
+  padding: 10px;
+  border-radius: 13px;
+background: #124CA4;
+text-transform: uppercase;
+color: black;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  border: none;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.five{
+ 
+    background-color: white;
+    padding: 100px 0;
+        margin:  20px 40px;
+}
+.new{
+   max-width: 800px;
+    margin: auto;
+
+}
+footer{
+    background-color:#F5F8FD ;
+        padding:  20px 40px;
+        display: flex;
+        flex-direction: column;
+
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.icon img{
+    max-width: 100%;
+}
+@media screen and (min-width: 680px) {
+  .hero,
+  .two,
+  .three,
+  .four {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+  }
+  .two, .four{
+     flex-direction: row-reverse;
+  }
+  .one-sec {
+    display: flex;
+    flex-direction: row;
+  }
+  .hero-text {
+    flex-basis: 50%;
+  }
+  .two-text {
+    flex-basis: 60%;
+  }
+  .three-text {
+    flex-basis: 60%;
+  }
+  .four-text {
+    flex-basis: 60%;
+  }
+  /* .five {
+    margin:auto;
+width: 700px;
+  } */
+  .five h1 {
+    font-size: 35px;
+  }
+  .five .input-field {
+    display: flex;
+    flex-direction: row;
+  }
+  .five input {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .one-text{
+ text-align: left;
+  width: 50%;
+}
+}
+ .head{
+  color: #333;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+
+.hero h1{
+  font-size: 40px;
+  margin-left: 40px;
+  text-transform: uppercase;
+    font-family: tahoma;
+
+}
+
+.message {
+background: #124CA4;
+
+  color: #333;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 80px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+.word1, .word2, .word3 {
+  font-family: tahoma;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  /* 38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  } */
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  /* 66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  /* 86% {
+    top: -9rem;
+    width: 285px;
+  } */
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -1rem;
+    width: 0;
+    text-indent: 5px;
+  } 
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
