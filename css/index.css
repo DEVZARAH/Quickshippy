@@ -28,11 +28,14 @@ nav {
   justify-content: space-between;
     margin: 20px 40px;
 }
-nav img {
-  width: 200px;
+/* nav img {
+  width: 100px;
+} */
+.logo1{
+    max-width: 100px;
 }
 h2 {
-  font-size: 25px;
+  font-size: 15px;
   color: #124ca4;
 }
 h1 {
@@ -70,11 +73,16 @@ input {
   background: #124ca4;
   text-transform: uppercase;
   border: 2px solid #124ca4;
+   padding: 15px;
+  
 
   color: white;
 }
 .hero {
   margin: 20px 40px;
+}
+#app{
+max-width: 100%;
 }
 .one {
   background-color: white;
@@ -149,7 +157,7 @@ footer {
 }
 .icon {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /* justify-content: space-between;
   align-items: center; */
   gap: 20px;
@@ -160,6 +168,9 @@ footer {
 @media screen and (min-width: 680px) {
     h1{
         font-size: 40.5px;
+    }
+    h2{
+        font-size: 25px;
     }
   .hero,
   .two,
@@ -178,7 +189,7 @@ footer {
     flex-direction: row;
   }
   .hero-text {
-    flex-basis: 50%;
+    flex-basis: 40%;
   }
   .two-text {
     flex-basis: 50%;
@@ -189,10 +200,6 @@ footer {
   .four-text {
     flex-basis: 50%;
   }
-  /* .five {
-    margin:auto;
-width: 700px;
-  } */
   .five h1 {
     font-size: 35px;
   }
@@ -219,6 +226,9 @@ width: 700px;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+}
+.logo1{
+    max-width: 200px;
 }
 }
 
