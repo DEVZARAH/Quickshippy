@@ -72,9 +72,10 @@ input {
 .black {
   background: #124ca4;
   text-transform: uppercase;
-  border: 2px solid #124ca4;
+  /* border: 2px solid #124ca4; */
+  border: none;
    padding: 15px;
-  
+  border-radius: none;
 
   color: white;
 }
