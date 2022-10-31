@@ -13,11 +13,11 @@
   font-family: inter;
     width: 100%;
   margin: 0 auto;
-  padding:  10px 40px;
+
 }
 .first {
   background-color: #f5f8fd;
-  /* padding: 20px 30px; */
+  padding: 20px 30px;
 }
 img {
   max-width: 90%;
@@ -27,11 +27,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-    /* margin: 20px 40px; */
+    padding: 20px 40px;
 }
-/* nav img {
-  width: 100px;
-} */
 .logo1{
     max-width: 100px;
 }
@@ -49,7 +46,7 @@ h1 {
   letter-spacing: 0.25rem;
 }
 .hero h1{
-    /* text-align: center; */
+
     margin: 0 auto;
 }
 p {
@@ -94,7 +91,7 @@ max-width: 100%;
 }
 .one {
   background-color: white;
-  /* padding: 20px 40px; */
+  padding: 20px 40px;
 }
 
 .logo img {
@@ -123,14 +120,14 @@ max-width: 100%;
 .two {
   /* margin: 20px 0; */
   background-color: #f5f8fd;
-  /* padding: 20px 40px; */
+  padding: 20px 40px;
 }
 .three {
-  /* padding: 20px 40px; */
+  padding: 20px 40px;
   background-color: white;
 }
 .four {
-  /* padding: 20px 40px; */
+  padding: 20px 40px;
   background-color: #f5f8fd;
 }
 
@@ -151,7 +148,7 @@ button:hover {
 .five {
   background-color: white;
   padding: 100px 0;
-  /* margin: 20px 40px; */
+  padding: 20px 40px;
 }
 .new {
   max-width: 800px;
@@ -159,7 +156,7 @@ button:hover {
 }
 footer {
   background-color: #f5f8fd;
-  /* padding: 20px 40px; */
+  padding: 20px 40px;
   display: flex;
   flex-direction: column;
 }
